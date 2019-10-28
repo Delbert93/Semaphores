@@ -11,7 +11,6 @@
  
  char volatile line[6];
  char alpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
- sem_t sem[4];
  sem_t run[4];
  
  int pthread_create(pthread_t *thread,
