@@ -8,7 +8,7 @@
 #include <locale.h>
 #include <limits.h>
 #include <assert.h>
- printf(test branc)
+ printf(test bran)
  char volatile line[6];
  char alpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  sem_t sem[4];
