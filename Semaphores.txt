@@ -9,7 +9,6 @@
 #include <limits.h>
 #include <assert.h>
 printf(this is a master test)
-printf(another test)
  char volatile line[6];
  char alpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  sem_t sem[4];
