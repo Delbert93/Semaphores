@@ -8,14 +8,12 @@
 #include <locale.h>
 #include <limits.h>
 #include <assert.h>
- printf(this is a master test)
+printf(this is a master test)
 printf(another test)
  char volatile line[6];
  char alpha[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
  sem_t sem[4];
  sem_t run[4];
-
-printf("branch of branc")
  
  int pthread_create(pthread_t *thread,
  const pthread_attr_t *attr,
